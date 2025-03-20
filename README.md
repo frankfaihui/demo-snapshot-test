@@ -36,3 +36,4 @@ This demo includes a `BaseButton` component with code that's commented out. To s
    npm run test
    ```
 
+6. Create a Pull Request (PR) to inform team members that the update of `BaseButton` will apply style changes to both the `BaseButton` and `Card` components. This ensures everyone is aware of the updates and can review the changes.
