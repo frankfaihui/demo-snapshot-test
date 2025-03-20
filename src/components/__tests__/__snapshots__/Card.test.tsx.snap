@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component Snapshot renders correctly with all props 1`] = `
+.emotion-0 {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1),0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.emotion-1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a202c;
+  margin: 0;
+}
+
+.emotion-2 {
+  font-size: 1rem;
+  color: #4a5568;
+  margin: 0;
+}
+
+.emotion-3 {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.emotion-4 {
+  display: block;
+  border: 1px solid #e2e8f0;
+  color: black;
+  padding: 10px;
+  background-color: white;
+}
+
+<div>
+  <div
+    class="emotion-0"
+  >
+    <h3
+      class="emotion-1"
+    >
+      Test Card Title
+    </h3>
+    <p
+      class="emotion-2"
+    >
+      This is a test description for the card component
+    </p>
+    <div
+      data-testid="test-child"
+    >
+      Card children content
+    </div>
+    <div
+      class="emotion-3"
+    >
+      <button
+        class="emotion-4"
+      >
+        Click Me
+      </button>
+    </div>
+  </div>
+</div>
+`;
